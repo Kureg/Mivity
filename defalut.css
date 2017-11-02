@@ -69,6 +69,10 @@ body{
 	position: relative;
 	top: 12px;
 	left: 20px;
+	cursor: defalut;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 .menu{
 	color: #1C1C1C;
@@ -78,18 +82,36 @@ body{
 	position: relative;
 	top: -20px;
 	right: 20px;
+	cursor: default;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
+
+a{
+	color: #1C1C1C;
+	text-decoration: none;
+}
+a:hover{
+	color: #1C1C1C;
+	text-decoration: none;
+}
+
 span#kugiri{
 	font-weight: bold;
 	font-size: 20px;
 	position: relative;
 	top: -2px;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 8px;
+	margin-right: 0px;
 }
 #copyright{
 	color: #EFF2FB;
 	text-align: right;
 	font-size: 16px;
 	margin-right: 20px;
+	cursor: default;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
